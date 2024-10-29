@@ -16,4 +16,5 @@
       <li>Автор не имеет книг</li>
     {% endfor %}
   </ul>
+    <a class="author-deletes" href="{% url 'author-delete' author.id %}">Удалить автора</a>
 {% endblock %}
