@@ -62,5 +62,13 @@ form > button:hover{
 }
 .author-deletes:hover{
   color: darkgreen;
-
+}
+.author-forms{
+  margin: 20px 0 0 0;
+}
+.book-forms{
+  margin: 20px 0 0 0;
+}
+.login-form{
+  margin: 20px 0 0 0;
 }

@@ -27,13 +27,13 @@
                 <li class="user">Вы вошли как: <span>{{ user.get_username }}</span></li>
         <li><a href="{% url 'my-borrowed' %}">Мои взятые книги</a></li>
                 <li>
-         <form method="post" action="{% url 'logout'%}">
+         <form method="post" action="{% url 'logout' %}">
     {% csrf_token %}
              <button>Выйти</button>
 </form>
      </li>
    {% else %}
-     <li> <form method="post" action="{% url 'login'%}">
+     <li> <form method="post" action="{% url 'login' %}">
     {% csrf_token %}
              <button>Войти</button>
 </form>
